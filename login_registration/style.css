@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#lr-ctn {
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#lr-ctn form {
+    background-image: linear-gradient(45deg, grey, black);
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-inline: 1rem;
+    padding: 5rem 3rem;
+}
+
+label {
+    display: block;
+}
+
+.form-group {
+    padding: 1rem;
+    /* outline: 1px solid aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.form-group input {
+    /* background-color: black;
+    color: white; */
+    font-size: 1.25rem;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.form-group input:hover {
+    cursor: default;
+}
+
+.form-group input:focus {
+    border-top: none;
+}
+
+.form-group button {
+    padding: 10px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, magenta, blue);
+    color: white;
+    font-weight: 800;
+    font-size: 1.15rem;
+}
+
+.inside-form {
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.069);
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
